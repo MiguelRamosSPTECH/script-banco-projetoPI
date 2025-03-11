@@ -13,8 +13,9 @@ Scripts criados no intuíto de criar tabelas MySQL para armezenar os dados que s
 ### Etapas
 
 1. Baixe a pasta
-2. Abra o arquivo .sql com o workbench.
-3. Faça as etapas de criação das tabelas
-4. Insira os dados nas tabelas com o script de inserção/visualização.
-5. Visualize os dados no script de inserção/visualização.
+2. Certifique-se de que o MySQL está ligado no seu computador para poder executar o workbench.
+3. Abra o arquivo .sql desejado com o workbench.
+4. Faça as etapas de criação das tabelas no script 
+5. Insira os dados nas tabelas com o script de inserção/visualização.
+6. Visualize os dados no script de inserção/visualização.
 
