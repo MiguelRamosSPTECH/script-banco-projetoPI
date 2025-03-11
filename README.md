@@ -1,0 +1,1 @@
+Script de criação de tabelas para armanezar os dados do sensor hc-sr04 que caputurará de forma simulada o volume em litros do óleo do cárter de um carro. Além de um script de inserção e consulta de dados + modelagem.
