@@ -7,14 +7,14 @@ Scripts criados no intuíto de criar tabelas MySQL para armezenar os dados que s
 
 ### Pré-requisitos
 
-## MySQL version 8+
-## MySQL Workbench 8.0 CE
+1. MySQL version 8+
+2. MySQL Workbench 8.0 CE
 
 ### Etapas
 
-## Baixe a pasta
-## Abra o arquivo .sql com o workbench.
-## Faça as etapas de criação das tabelas
-## Insira os dados nas tabelas com o script de inserção/visualização.
-## Visualize os dados no script de inserção/visualização.
+1. Baixe a pasta
+2. Abra o arquivo .sql com o workbench.
+3. Faça as etapas de criação das tabelas
+4. Insira os dados nas tabelas com o script de inserção/visualização.
+5. Visualize os dados no script de inserção/visualização.
 
