@@ -44,5 +44,5 @@ create table carro(
     constraint fk_idSensorCarro foreign key(idSensor) references sensor(idSensor),
     constraint fk_idMontadoraCarro foreign key(idMontadora) references montadora(idMontadora)
 );
-
+-- um carro só pode ter um sensor, se eu deixar o idCarro no sensor um carro pode ter varios sensores
 drop database projetoPi;
