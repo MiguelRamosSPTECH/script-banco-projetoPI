@@ -5,13 +5,14 @@ use projetoPi;
 
 create table sensor(
 	idSensor int primary key auto_increment,
-    statusSensor int not null
+    statusSensor varchar(11)
 );
+
 create table dadosSensor(
 	idDadosSensor int primary key auto_increment,
-    volumeLitros decimal(5,2) not null,
-    dataHoraColeta datetime not null,
-    nivelAlerta int not null,
+    volumeLitros decimal(5,2) default(null),
+    dataHoraColeta datetime,
+    nivelAlerta varchar(25) default('Falha Sensor'),
 	idSensor int not null,
     constraint fk_idSensor foreign key(idSensor) references sensor(idSensor)	
 );
@@ -42,7 +43,9 @@ create table carro(
     idSensor int,
     idMontadora int,
     constraint fk_idSensorCarro foreign key(idSensor) references sensor(idSensor),
-    constraint fk_idMontadoraCarro foreign key(idMontadora) references montadora(idMontadora)
+    constraint fk_idMontadoraCarro foreign key(idMontadora) references montadora(idMontadora),
+    unique key ix_idSensor(idSensor)
 );
+
 -- um carro só pode ter um sensor, se eu deixar o idCarro no sensor um carro pode ter varios sensores
 drop database projetoPi;
